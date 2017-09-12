@@ -15,9 +15,10 @@ Installation
 - Install this module using the official Backdrop CMS instructions at
   https://backdropcms.org/guide/modules
 
-- Visit the 'Text editors and formats' page under Administration > Configuration
-  > Content authoring > Text editors and formats (admin/config/content/formats)
-  and configure a CKEditor-enabled text editor to add the 'oEmbed' button.
+- Visit the 'Text editors and formats' page under Administration >
+  Configuration > Content authoring > Text editors and formats
+  (admin/config/content/formats) and configure a CKEditor-enabled text editor to
+  add the 'oEmbed' button.
 
 Issues
 ------
