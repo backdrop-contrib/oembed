@@ -17,6 +17,16 @@ function oembed_ckeditor_plugins() {
       'oembed' => array(
         'label' => t('oEmbed'),
         'image' => $path . '/icons/oembed.png',
+        'required_html' => array(
+          array(
+            'tags' => array('iframe'),
+            'attributes' => array('*'),
+          ),
+          array(
+            'tags' => array('div'),
+            'attributes' => array('data-align', 'data-oembed', 'data-resizetype', 'data-oembed_provider', 'class' => array('embeddedContent', 'oembed-provider-*')),
+          ),
+        ),
       ),
     ),
   );
