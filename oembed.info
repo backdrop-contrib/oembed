@@ -2,4 +2,6 @@ name = oEmbed
 description = A CKEditor plugin for inserting embedded content via an external URL.
 backdrop = 1.x
 type = module
+tags[] = Editors
+tags[] = Media
 
