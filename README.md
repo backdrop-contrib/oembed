@@ -9,6 +9,9 @@ same goes for Flickr photos, Soundcloud audio, and much more!
 This module provides a very simple integration between CKEditor's '[Media
 (oEmbed) Plugin](https://ckeditor.com/addon/oembed)' and Backdrop.
 
+NOTE: This module will automatically add `<iframe>` and `<div>` tags to the list
+of 'Allowed HTML Tags' for any text format it's enabled on.
+
 Installation
 ------------
 
